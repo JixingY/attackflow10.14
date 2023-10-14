@@ -9,6 +9,7 @@ import Annotator from "@/components/annotator/Annotator.vue";
 import Admin from "@/components/admin/Admin.vue";
 import Profile from "@/components/annotator/profile/Profile.vue";
 import Annotation from "@/components/annotation/Annotation.vue";
+import Sample from "@/components/annotation/Sample.vue";
 
 
 
@@ -58,7 +59,12 @@ const routes = [
     {
         path: '/database/:id',
         component: Detail
+    },
+    {
+        path: '/sample',
+        component: Sample
     }
+
 
 
 ]
